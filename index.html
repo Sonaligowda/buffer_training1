@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         h1{
-            color:blue;
+            color:black;
         }
         form{
             background-color:gray;
@@ -15,17 +15,31 @@
     </style>
 <body>
     <form>
-        <h1 > i am sonali</h1>
+        <h1 > Pratise</h1>
         <label>Name</label>
-        <input type="name" name="sonali" required/>
+        <input type="name" name="sonali" required/><br>
         <label>course</label>
-        <input type="radio" name="cou" />
+        <input type="radio" name="cou" /><br>
         <label>job</label>
-        <input type="checkbox" name="male"/>
+        <input type="checkbox" name="male"/><br><br>
         <select>
-            <option>male</option>
-            <option>female</option>
-        </select>
+            <option>apple</option>
+            <option>mango</option>
+            <option>banana</option>
+            <option>orange</option>
+            <option>grapes</option>            
+        </select><br><br>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist><br><br>
+
+        
         <button type="submit"> submit</button>
     </form>
     
